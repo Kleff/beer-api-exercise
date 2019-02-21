@@ -115,6 +115,10 @@ main .beer-item .ibu-ph p {
 }
 
 @media (max-width: 600px) {
+    main .beer-item {
+        grid-template-columns: 20% 50% 15% 15%;
+    }
+
     main .beer-item img {
         width: 40px;
     }
